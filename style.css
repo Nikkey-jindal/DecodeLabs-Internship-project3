@@ -538,10 +538,9 @@ body{
 
 .nav{
     display:none;
-    /* flex-direction: column;
-    gap:15px;
+     gap:15px;
     padding:20px;
-    text-align:center; */
+    text-align:center;
 }
 
 .nav h1{
