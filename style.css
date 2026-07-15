@@ -534,14 +534,14 @@ body{
 }
 @media (max-width:768px){
 
-/* Navbar */
+
 
 .nav{
     display:none;
-    flex-direction: column;
+    /* flex-direction: column;
     gap:15px;
     padding:20px;
-    text-align:center;
+    text-align:center; */
 }
 
 .nav h1{
@@ -558,7 +558,7 @@ body{
     font-size:18px;
 }
 
-/* Hero */
+
 
 .hero{
     flex-direction:column;
@@ -590,7 +590,7 @@ body{
     width:100%;
 }
 
-/* Search */
+/
 
 .search{
     height:auto;
@@ -620,7 +620,7 @@ body{
     max-width:350px;
 }
 
-/* Flight Card */
+
 
 .flight-card{
     padding:20px;
@@ -646,7 +646,7 @@ body{
     padding:20px;
 }
 
-/* Booking Summary */
+
 
 #bookingsummary{
     width:95%;
@@ -664,7 +664,7 @@ body{
     margin:10px 0;
 }
 
-/* Booking Confirmation */
+
 
 #bookingconfirmation{
     width:95%;
