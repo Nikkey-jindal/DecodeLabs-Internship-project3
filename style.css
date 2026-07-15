@@ -560,6 +560,7 @@ body{
 
 
 .hero{
+    min-height:300px;
     flex-direction:column;
     text-align:center;
     padding:40px 20px;
