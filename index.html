@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+             <h1>✈ SkyFly</h1>
+          <p>Home</p>
+        <p> Flights </p>
+        <p> Offers </p>
+        <p>My Trips</p>
+        <p> Support</p>
+            <p>Login </p>
+            <p>Register</p>
+        <div >
+            <button class="btn">Book Now</button>
+        </div>
+    </nav>
+    <section class="hero">
+    <div class="hero-content">
+        <h1>Fly Smarter, Travel Better</h1>
+        <p>
+            Book domestic and international flights with ease.
+            Compare fares, choose your preferred seats,
+            and enjoy a smooth travel experience with SkyFly.
+        </p>
+        <div class="hero-buttons">
+            <button class="primary-btn">Search Flights</button>
+            <button class="secondary-btn">View Offers</button>
+        </div>
+    </div>
+    <div class="hero-image">
+        <img src="./project3img1.jpg" alt="Flight">
+    </div>
+    </section>
+    <div class="search">
+        <h1>Find Your Perfect Flight</h1>
+        <p>Search thousands of flights with the best fares.</p>
+        <div class="option">
+         <select id="from">
+            <option>Select departure</option>
+            <option>Delhi</option>
+            <option>Mumbai</option>
+            <option>Banglore</option>
+            <option>Hyderabad</option>
+            <option>Chennai</option> 
+        </select>
+        <select id="to">
+    <option>Select Destination</option>
+    <option>Goa</option>
+    <option>Dubai</option>
+    <option>Singapore</option>
+    <option>Kolkata</option>
+    <option>Jaipur</option>
+</select>
+<input type="date" id="date">
+<input type="number" min="1" max="9" value="1" id="num">
+<select id="eco">
+    <option>Economy</option>
+    <option>Premium Economy</option>
+    <option>Business</option>
+    <option>First Class</option>
+</select> 
+<button class="btn" id="btn">Search Flights</button>
+        </div>
+    </div>
+    <section class="available-flights" id="availableFlights">
+    <h2>Available Flights</h2>
+
+    <div id="flightContainer"></div>
+</section>
+<Section id="login">
+   
+</Section>
+<section id="bookingsummary">
+</section>
+<section id="bookingconfirmation">
+</section>
+   <!-- <div class="success">
+    <i class="fa-solid fa-circle-check"></i>
+    <h2>Booking Confirmed!</h2>
+</div> -->
+    <script src="index.js">
+    </script>
+</body>
+</html>
