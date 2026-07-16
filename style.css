@@ -7,7 +7,9 @@ body{
     overflow-x: hidden;
 }
 .nav{
-   
+    background-color: white;
+    position: sticky;
+    top: 0;
     height: 80px;
     box-shadow:0 12px 30px rgba(0,0,0,.15);
     
@@ -534,16 +536,17 @@ body{
 }
 @media (max-width:768px){
 
-
+/* Navbar */
 
 .nav{
-    display:none;
-     gap:15px;
+    display: none;
+    flex-direction: column;
+    gap:15px;
     padding:20px;
     text-align:center;
 }
 
-/* .nav h1{
+.nav h1{
     font-size:32px;
 }
 
@@ -555,12 +558,11 @@ body{
     width:100%;
     max-width:250px;
     font-size:18px;
-} */
+}
 
-
+/* Hero */
 
 .hero{
-    min-height:300px;
     flex-direction:column;
     text-align:center;
     padding:40px 20px;
@@ -590,7 +592,7 @@ body{
     width:100%;
 }
 
-/
+/* Search */
 
 .search{
     height:auto;
@@ -620,7 +622,7 @@ body{
     max-width:350px;
 }
 
-
+/* Flight Card */
 
 .flight-card{
     padding:20px;
@@ -646,7 +648,7 @@ body{
     padding:20px;
 }
 
-
+/* Booking Summary */
 
 #bookingsummary{
     width:95%;
@@ -664,7 +666,7 @@ body{
     margin:10px 0;
 }
 
-
+/* Booking Confirmation */
 
 #bookingconfirmation{
     width:95%;
